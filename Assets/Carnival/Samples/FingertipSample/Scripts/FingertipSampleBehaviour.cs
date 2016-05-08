@@ -11,11 +11,13 @@ public class FingertipSampleBehaviour : MonoBehaviour
 
 	private Controller _carnivalController;
 	// Controller to access frame data
-	
+		public MeshFilter handMesh;
 private MeshFilter _handMeshVertices;
 private int[] _indices;
 private bool movingball = false;
 private bool grabbedball = true;
+private bool letgo = false;
+private Vector3 defaultPos = new Vector3((float)0.54,(float)1.31,(float)0.508);
 
 	// Use this for initialization
 	void Start()
@@ -35,6 +37,12 @@ private bool grabbedball = true;
 	// Update is called once per frame
 	void Update()
 	{
+	    // Back button on Android is mapped to Escape
+        if (Application.platform == RuntimePlatform.Android && Input.GetKeyUp(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
 		foreach(GameObject hammer in GameObject.FindGameObjectsWithTag("hammer"))
 		{
 			Destroy(hammer);
@@ -43,22 +51,32 @@ private bool grabbedball = true;
 		// Get the current frame
 		Frame frame = _carnivalController.Frame();
 		
-#region Use point cloud to make player easier recognize if hand is inside sensor field of view
-_handMeshVertices.mesh.Clear();
-_handMeshVertices.mesh.vertices = frame.PointCloud;
+        #region Use point cloud to make player easier recognize if hand is inside sensor field of view
+        _handMeshVertices.mesh.Clear();
+        _handMeshVertices.mesh.vertices = frame.PointCloud;
 
-_indices = new int[frame.PointCloud.Length];
+		handMesh.mesh.Clear();
 
-for (int i = 0; i < frame.PointCloud.Length; i++)
-{
-	// Use depth confidence to filter noise points, this is very useful if you want distinguish hand
-	// from other objects in background
-	if (frame.DepthConfidence[i] > 0 )
-		_indices[i] = i;
-}
+		if(frame.meshData.vertices.Length > 0)
+		{
+			// You need vertices positions and a triangle indicies array to render mesh in real time
+			handMesh.mesh.vertices = frame.meshData.vertices;
+			handMesh.mesh.triangles = frame.meshData.triangles;
+			handMesh.mesh.RecalculateNormals();
+		}
 
-_handMeshVertices.mesh.SetIndices(_indices, MeshTopology.Points, 0);
-#endregion
+        _indices = new int[frame.PointCloud.Length];
+
+        for (int i = 0; i < frame.PointCloud.Length; i++)
+        {
+            // Use depth confidence to filter noise points, this is very useful if you want distinguish hand
+            // from other objects in background
+            if (frame.DepthConfidence[i] > 0 )
+                _indices[i] = i;
+        }
+
+        _handMeshVertices.mesh.SetIndices(_indices, MeshTopology.Points, 0);
+		#endregion
 
 		// Fingertips are always linked to a certain Hand.
 		foreach(Hand hand in frame.Hands)
@@ -72,7 +90,7 @@ _handMeshVertices.mesh.SetIndices(_indices, MeshTopology.Points, 0);
 				// quite close to your eyes which is main camera. For better UX you should actually take the distance into
 				// account
 				hammer.transform.localPosition = tip.Center3D;
-            	if(GameObject.Find("snowglobe").GetComponent<Rigidbody>().useGravity == true && grabbedball == true) {
+            	if(GameObject.Find("snowglobe").GetComponent<Rigidbody>().useGravity == true ) {
 					//Debug.Log("snowglobe grav true");
                 	GameObject.Find("snowglobe").transform.position = hammer.transform.position;
 					movingball = true;
@@ -84,20 +102,18 @@ _handMeshVertices.mesh.SetIndices(_indices, MeshTopology.Points, 0);
 		switch (frame.Gestures[0].Type)
         {
             case GestureType.Clamp:
+				letgo = false;
 				if(movingball) {
-					Debug.Log("moving the ball - detected CLAMP");
-					grabbedball = true;
+				    grabbedball = true; 
 					movingball = false;
+				} else if (grabbedball) {
+//					GameObject.Find("snowglobe").GetComponent<Rigidbody>().useGravity = false;
+//					GameObject.Find("snowglobe").GetComponent<Rigidbody>().transform.position = defaultPos;
 				}
                 break;
             case GestureType.Swipe:
                 break;
             default:
-				if(grabbedball) {
-				    grabbedball = false;  //TODO: velocity.... gen new balls...
-				} else {
-
-				}
                 break;
         }
 		

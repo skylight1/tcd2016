@@ -73,6 +73,7 @@
      <Compile Include="Assets\Carnival\Samples\FingertipSample\Scripts\FingertipSampleBehaviour.cs" />
      <Compile Include="Assets\Carnival\Samples\FingertipSample\Scripts\MoleBehaviour.cs" />
      <Compile Include="Assets\Carnival\Samples\FingertipSample\Scripts\SnowGlobeBehaviour.cs" />
+     <Compile Include="Assets\Carnival\Samples\FingertipSample\Scripts\SphereBehaviourScript.cs" />
      <Compile Include="Assets\Carnival\Samples\GestureSample\Scripts\GestureSampleBehaviour.cs" />
      <Compile Include="Assets\Carnival\Samples\GestureSample\Scripts\SnowmanBehaviour.cs" />
      <Compile Include="Assets\Carnival\Samples\GestureSample\Scripts\TriggerParticles.cs" />
@@ -98,6 +99,10 @@
  <Reference Include="CarnivalCSharp">
  <HintPath>/Users/timothy/TechCrunch2016/Carnival/Carnival Samples/Assets/Carnival/Plugins/CarnivalCSharp.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{674DD199-FC38-1057-8C1C-0CC3D0098850}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

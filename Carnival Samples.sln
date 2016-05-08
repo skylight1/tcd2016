@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{7A3890E8-0B4B-E933-90C4-B55E6A38E41B}") = "Carnival Samples", "Assembly-CSharp-firstpass.csproj", "{674DD199-FC38-1057-8C1C-0CC3D0098850}"
+EndProject
 Project("{7A3890E8-0B4B-E933-90C4-B55E6A38E41B}") = "Carnival Samples", "Assembly-CSharp.csproj", "{ED637832-2C35-5BBF-5155-1CB976B9E928}"
 EndProject
 Project("{7A3890E8-0B4B-E933-90C4-B55E6A38E41B}") = "Carnival Samples", "Assembly-CSharp-Editor.csproj", "{608AC867-70ED-74CB-E54E-C5A1D3FCA285}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{674DD199-FC38-1057-8C1C-0CC3D0098850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674DD199-FC38-1057-8C1C-0CC3D0098850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674DD199-FC38-1057-8C1C-0CC3D0098850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674DD199-FC38-1057-8C1C-0CC3D0098850}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED637832-2C35-5BBF-5155-1CB976B9E928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED637832-2C35-5BBF-5155-1CB976B9E928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED637832-2C35-5BBF-5155-1CB976B9E928}.Release|Any CPU.ActiveCfg = Release|Any CPU

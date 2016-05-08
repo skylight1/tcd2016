@@ -27,6 +27,11 @@ public class MoleBehaviour : MonoBehaviour
         if (GetComponent<CapsuleCollider>().bounds.max.y < 0)
         {
             gameObject.tag = "underGround";
+            GetComponent<Rigidbody>().useGravity = false;
+            Vector3 vector3 = transform.position;
+            vector3.y = _initY;
+            transform.position = vector3;   
+            GetComponent<Rigidbody>().transform.position = vector3;         
         }
     }
 
@@ -38,6 +43,13 @@ public class MoleBehaviour : MonoBehaviour
             GetComponent<Rigidbody>().useGravity = true;
             GameObject.Find("snowball").GetComponent<Rigidbody>().useGravity = true;
             gameObject.tag = "movingDown";
+        } 
+        if(col.gameObject.name == "snowglobe") {   
+        Debug.Log("snowglobe triggered mole!!!!!!");     
+            GameObject.Find("snowglobe").GetComponent<Rigidbody>().useGravity = true;
+            GameObject.Find("snowglobe").GetComponent<Rigidbody>().transform.position = new Vector3(0,-1,0);
+            GameObject.Find("Cylinder2").GetComponent<Rigidbody>().isKinematic = false;
+            GameObject.Find("Cylinder2").GetComponent<Rigidbody>().useGravity = true;
         }
     }
 }

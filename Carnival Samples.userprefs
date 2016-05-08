@@ -1,9 +1,43 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CarnivalTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SteamVR/Scripts/SteamVR_LoadLevel.cs">
     <Files>
-      <File FileName="Assets/CarnivalTest.cs" Line="11" Column="35" />
+      <File FileName="Assets/Carnival/Samples/GestureSample/Scripts/GestureSampleBehaviour.cs" Line="114" Column="1" />
+      <File FileName="Assets/Carnival/Samples/GestureSample/Scripts/TriggerParticles.cs" Line="9" Column="1" />
+      <File FileName="Assets/Carnival/Samples/FingertipSample/Scripts/FingertipSampleBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Carnival/Samples/HandSample/Scripts/HandSampleBehaviour.cs" Line="66" Column="29" />
+      <File FileName="Assets/Carnival/Samples/PointCloudSample/Materials/VertexColorMap.shader" Line="1" Column="1" />
+      <File FileName="Assets/Carnival/Samples/MeshSample/Scripts/MeshSampleBehaviour.cs" Line="8" Column="28" />
+      <File FileName="Assets/Cardboard/Scripts/VRDevices/BaseCardboardDevice.cs" Line="100" Column="1" />
+      <File FileName="Assets/Carnival/Samples/GestureSample/Scripts/SnowmanBehaviour.cs" Line="10" Column="93" />
+      <File FileName="Assets/SteamVR/Scripts/SteamVR_LoadLevel.cs" Line="357" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Carnival Samples" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Carnival" expanded="True">
+                <Node name="Samples" expanded="True">
+                  <Node name="GestureSample" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                  <Node name="HandSample" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Assembly-CSharp-Editor" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="Carnival Samples" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
