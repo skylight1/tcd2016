@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Carnival/Samples/GestureSample.unity
+- path: Assets/Carnival/Samples/FingertipSample.unity
   isLoaded: 1
   isActive: 1
