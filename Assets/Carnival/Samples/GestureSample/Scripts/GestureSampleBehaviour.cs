@@ -72,64 +72,64 @@ public class GestureSampleBehaviour : MonoBehaviour
                 _indices[i] = i;
         }
 
-		if (frame.Hands.Count > 0) {
-//			_ring = Instantiate(ringPrefab) as GameObject;
-//			ringPrefab.transform.parent = Camera.main.transform;
-//			_ring.tag = "ready";
-//			_ring.transform.localPosition = _origin + clampPosition;
-//			_startPosition = _ring.transform.position;
-			Debug.Log("hello:" + frame.Hands[0].CenterOfGravity );
-			Vector3 center;
-			if (frame.Hands[0].Fingertips.Count > 0) {
-				center = frame.Hands[0].Fingertips[0].Center3D;
-			} else {
-				center = frame.Hands[0].CenterOfGravity;
-			}
-			ringPrefab.transform.localPosition = center;
-		}
+//		if (frame.Hands.Count > 0) {
+////			_ring = Instantiate(ringPrefab) as GameObject;
+////			ringPrefab.transform.parent = Camera.main.transform;
+////			_ring.tag = "ready";
+////			_ring.transform.localPosition = _origin + clampPosition;
+////			_startPosition = _ring.transform.position;
+//			Debug.Log("hello:" + frame.Hands[0].CenterOfGravity );
+//			Vector3 center;
+//			if (frame.Hands[0].Fingertips.Count > 0) {
+//				center = frame.Hands[0].Fingertips[0].Center3D;
+//			} else {
+//				center = frame.Hands[0].CenterOfGravity;
+//			}
+//			ringPrefab.transform.localPosition = center;
+//		}
 
         _handMeshVertices.mesh.SetIndices(_indices, MeshTopology.Points, 0);
         #endregion
 
         // No gestures are detected ? We suppose the player has released his gesture here. However gesture can also be lost
         // in one or two frames due to e.g. fast movement of hand.
-        if (frame.Gestures.Count == 0)
-        {
-            if (GameObject.FindGameObjectsWithTag("ready").Length > 0)
-            {
-                ThrowRing();
-            }
-            return;
-        }
+//        if (frame.Gestures.Count == 0)
+//        {
+//            if (GameObject.FindGameObjectsWithTag("ready").Length > 0)
+//            {
+//                ThrowRing();
+//            }
+//            return;
+//        }
 
 
         // For simplicity, we suppose here there is only gesture in frame
-        switch (frame.Gestures[0].Type)
-        {
-            case GestureType.Clamp:
-                // Cast first gesture object as clamp gesture to get its position
-//                UpdateRingPosition(((ClampGesture)frame.Gestures[0]).Midpoint);
-                break;
-		case GestureType.Swipe:
-			Vector3 scale = thermometerFluid.transform.localScale;
-
-			thermometerFluid.transform.localScale = new Vector3(scale.x, scale.y - 0.15f, scale.z);
-                // Use SwipeGesture class to access more data
-                SwipeGesture swipe = (SwipeGesture)frame.Gestures[0];
-                int direction = 1;
-                // Four directions can be detected
-                if (swipe.Direction == SwipeDirection.Left || swipe.Direction == SwipeDirection.Down)
-                {
-                    direction = -1;
-                }
-
-                // Use swipe speed to add torque on wheel
-                Vector3 torque = new Vector3(0, 0,  direction * 2000);
-                wheel.AddTorque(torque, ForceMode.Force);
-                break;
-            default:
-                break;
-        }
+//        switch (frame.Gestures[0].Type)
+//        {
+//            case GestureType.Clamp:
+//                // Cast first gesture object as clamp gesture to get its position
+////                UpdateRingPosition(((ClampGesture)frame.Gestures[0]).Midpoint);
+//                break;
+//		case GestureType.Swipe:
+//			Vector3 scale = thermometerFluid.transform.localScale;
+//
+//			thermometerFluid.transform.localScale = new Vector3(scale.x, scale.y - 0.15f, scale.z);
+//                // Use SwipeGesture class to access more data
+//                SwipeGesture swipe = (SwipeGesture)frame.Gestures[0];
+//                int direction = 1;
+//                // Four directions can be detected
+//                if (swipe.Direction == SwipeDirection.Left || swipe.Direction == SwipeDirection.Down)
+//                {
+//                    direction = -1;
+//                }
+//
+//                // Use swipe speed to add torque on wheel
+//                Vector3 torque = new Vector3(0, 0,  direction * 2000);
+//                wheel.AddTorque(torque, ForceMode.Force);
+//                break;
+//            default:
+//                break;
+//        }
 
     }
 
