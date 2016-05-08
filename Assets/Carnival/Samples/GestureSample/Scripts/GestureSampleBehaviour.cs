@@ -72,6 +72,22 @@ public class GestureSampleBehaviour : MonoBehaviour
                 _indices[i] = i;
         }
 
+		if (frame.Hands.Count > 0) {
+//			_ring = Instantiate(ringPrefab) as GameObject;
+//			ringPrefab.transform.parent = Camera.main.transform;
+//			_ring.tag = "ready";
+//			_ring.transform.localPosition = _origin + clampPosition;
+//			_startPosition = _ring.transform.position;
+			Debug.Log("hello:" + frame.Hands[0].CenterOfGravity );
+			Vector3 center;
+			if (frame.Hands[0].Fingertips.Count > 0) {
+				center = frame.Hands[0].Fingertips[0].Center3D;
+			} else {
+				center = frame.Hands[0].CenterOfGravity;
+			}
+			ringPrefab.transform.localPosition = center;
+		}
+
         _handMeshVertices.mesh.SetIndices(_indices, MeshTopology.Points, 0);
         #endregion
 
@@ -92,7 +108,7 @@ public class GestureSampleBehaviour : MonoBehaviour
         {
             case GestureType.Clamp:
                 // Cast first gesture object as clamp gesture to get its position
-                UpdateRingPosition(((ClampGesture)frame.Gestures[0]).Midpoint);
+//                UpdateRingPosition(((ClampGesture)frame.Gestures[0]).Midpoint);
                 break;
 		case GestureType.Swipe:
 			Vector3 scale = thermometerFluid.transform.localScale;
