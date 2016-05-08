@@ -16,6 +16,8 @@ private MeshFilter _handMeshVertices;
 private int[] _indices;
 private bool movingball = false;
 private bool grabbedball = true;
+private bool letgo = false;
+private Vector3 defaultPos = new Vector3((float)0.54,(float)1.31,(float)0.508);
 
 	// Use this for initialization
 	void Start()
@@ -72,7 +74,7 @@ _handMeshVertices.mesh.SetIndices(_indices, MeshTopology.Points, 0);
 				// quite close to your eyes which is main camera. For better UX you should actually take the distance into
 				// account
 				hammer.transform.localPosition = tip.Center3D;
-            	if(GameObject.Find("snowglobe").GetComponent<Rigidbody>().useGravity == true && grabbedball == true) {
+            	if(GameObject.Find("snowglobe").GetComponent<Rigidbody>().useGravity == true ) {
 					//Debug.Log("snowglobe grav true");
                 	GameObject.Find("snowglobe").transform.position = hammer.transform.position;
 					movingball = true;
@@ -84,20 +86,18 @@ _handMeshVertices.mesh.SetIndices(_indices, MeshTopology.Points, 0);
 		switch (frame.Gestures[0].Type)
         {
             case GestureType.Clamp:
+				letgo = false;
 				if(movingball) {
-					Debug.Log("moving the ball - detected CLAMP");
-					grabbedball = true;
+				    grabbedball = true; 
 					movingball = false;
+				} else if (grabbedball) {
+//					GameObject.Find("snowglobe").GetComponent<Rigidbody>().useGravity = false;
+//					GameObject.Find("snowglobe").GetComponent<Rigidbody>().transform.position = defaultPos;
 				}
                 break;
             case GestureType.Swipe:
                 break;
             default:
-				if(grabbedball) {
-				    grabbedball = false;  //TODO: velocity.... gen new balls...
-				} else {
-
-				}
                 break;
         }
 		
