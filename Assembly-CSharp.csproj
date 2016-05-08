@@ -72,6 +72,7 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
      <Compile Include="Assets\Carnival\Samples\FingertipSample\Scripts\FingertipSampleBehaviour.cs" />
      <Compile Include="Assets\Carnival\Samples\FingertipSample\Scripts\MoleBehaviour.cs" />
+     <Compile Include="Assets\Carnival\Samples\FingertipSample\Scripts\SnowGlobeBehaviour.cs" />
      <Compile Include="Assets\Carnival\Samples\GestureSample\Scripts\GestureSampleBehaviour.cs" />
      <Compile Include="Assets\Carnival\Samples\GestureSample\Scripts\SnowmanBehaviour.cs" />
      <Compile Include="Assets\Carnival\Samples\GestureSample\Scripts\TriggerParticles.cs" />
