@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: 207bab03f80714151a84fc8e0893520a
+timeCreated: 1462664499
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Snowflakes-vector-free-download-1024x482_0
+    21300002: Snowflakes-vector-free-download-1024x482_1
+    21300004: Snowflakes-vector-free-download-1024x482_2
+    21300006: Snowflakes-vector-free-download-1024x482_3
+    21300008: Snowflakes-vector-free-download-1024x482_4
+    21300010: Snowflakes-vector-free-download-1024x482_5
+    21300012: Snowflakes-vector-free-download-1024x482_6
+    21300014: Snowflakes-vector-free-download-1024x482_7
+    21300016: Snowflakes-vector-free-download-1024x482_8
+    21300018: Snowflakes-vector-free-download-1024x482_9
+    21300020: Snowflakes-vector-free-download-1024x482_10
+    21300022: Snowflakes-vector-free-download-1024x482_11
+    21300024: Snowflakes-vector-free-download-1024x482_12
+    21300026: Snowflakes-vector-free-download-1024x482_13
+    21300028: Snowflakes-vector-free-download-1024x482_14
+    21300030: Snowflakes-vector-free-download-1024x482_15
+    21300032: Snowflakes-vector-free-download-1024x482_16
+    21300034: Snowflakes-vector-free-download-1024x482_17
+    21300036: Snowflakes-vector-free-download-1024x482_18
+    21300038: Snowflakes-vector-free-download-1024x482_19
+    21300040: Snowflakes-vector-free-download-1024x482_20
+    21300042: Snowflakes-vector-free-download-1024x482_21
+    21300044: Snowflakes-vector-free-download-1024x482_22
+    21300046: Snowflakes-vector-free-download-1024x482_23
+    21300048: Snowflakes-vector-free-download-1024x482_24
+    21300050: Snowflakes-vector-free-download-1024x482_25
+    21300052: Snowflakes-vector-free-download-1024x482_26
+    21300054: Snowflakes-vector-free-download-1024x482_27
+    21300056: Snowflakes-vector-free-download-1024x482_28
+    21300058: Snowflakes-vector-free-download-1024x482_29
+    21300060: Snowflakes-vector-free-download-1024x482_30
+    21300062: Snowflakes-vector-free-download-1024x482_31
+    21300064: Snowflakes-vector-free-download-1024x482_32
+    21300066: Snowflakes-vector-free-download-1024x482_33
+    21300068: Snowflakes-vector-free-download-1024x482_34
+    21300070: Snowflakes-vector-free-download-1024x482_35
+    21300072: Snowflakes-vector-free-download-1024x482_36
+    21300074: Snowflakes-vector-free-download-1024x482_37
+    21300076: Snowflakes-vector-free-download-1024x482_38
+    21300078: Snowflakes-vector-free-download-1024x482_39
+    21300080: Snowflakes-vector-free-download-1024x482_40
+    21300082: Snowflakes-vector-free-download-1024x482_41
+    21300084: Snowflakes-vector-free-download-1024x482_42
+    21300086: Snowflakes-vector-free-download-1024x482_43
+    21300088: Snowflakes-vector-free-download-1024x482_44
+    21300090: Snowflakes-vector-free-download-1024x482_45
+    21300092: Snowflakes-vector-free-download-1024x482_46
+    21300094: Snowflakes-vector-free-download-1024x482_47
+    21300096: Snowflakes-vector-free-download-1024x482_48
+    21300098: Snowflakes-vector-free-download-1024x482_49
+    21300100: Snowflakes-vector-free-download-1024x482_50
+    21300102: Snowflakes-vector-free-download-1024x482_51
+    21300104: Snowflakes-vector-free-download-1024x482_52
+    21300106: Snowflakes-vector-free-download-1024x482_53
+    21300108: Snowflakes-vector-free-download-1024x482_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Snowflakes-vector-free-download-1024x482_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40909195, y: 0.9000244}
+        - {x: -0.40909195, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000244}
+        - {x: -0.40908813, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000244}
+        - {x: -0.40908813, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000244}
+        - {x: -0.40908813, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_4
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000244}
+        - {x: -0.40908813, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_6
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_7
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_8
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_9
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_10
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 385.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40909195, y: 0.9000244}
+        - {x: -0.40909195, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000244}
+        - {x: -0.40908813, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000244}
+        - {x: -0.40908813, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000244}
+        - {x: -0.40908813, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000244}
+        - {x: -0.40908813, y: -96.099976}
+        - {x: 92.59091, y: -96.099976}
+        - {x: 92.59091, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_17
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_18
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_19
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_20
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_21
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 289.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000244}
+        - {x: -0.40911865, y: -96.099976}
+        - {x: 92.59088, y: -96.099976}
+        - {x: 92.59088, y: 0.9000244}
+    - name: Snowflakes-vector-free-download-1024x482_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40909195, y: 0.90000916}
+        - {x: -0.40909195, y: -96.09999}
+        - {x: 92.59091, y: -96.09999}
+        - {x: 92.59091, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.90000916}
+        - {x: -0.40908813, y: -96.09999}
+        - {x: 92.59091, y: -96.09999}
+        - {x: 92.59091, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_24
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.90000916}
+        - {x: -0.40908813, y: -96.09999}
+        - {x: 92.59091, y: -96.09999}
+        - {x: 92.59091, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_25
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.90000916}
+        - {x: -0.40908813, y: -96.09999}
+        - {x: 92.59091, y: -96.09999}
+        - {x: 92.59091, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.90000916}
+        - {x: -0.40908813, y: -96.09999}
+        - {x: 92.59091, y: -96.09999}
+        - {x: 92.59091, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_27
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.90000916}
+        - {x: -0.40911865, y: -96.09999}
+        - {x: 92.59088, y: -96.09999}
+        - {x: 92.59088, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_28
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.90000916}
+        - {x: -0.40911865, y: -96.09999}
+        - {x: 92.59088, y: -96.09999}
+        - {x: 92.59088, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_29
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.90000916}
+        - {x: -0.40911865, y: -96.09999}
+        - {x: 92.59088, y: -96.09999}
+        - {x: 92.59088, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_30
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.90000916}
+        - {x: -0.40911865, y: -96.09999}
+        - {x: 92.59088, y: -96.09999}
+        - {x: 92.59088, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_31
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.90000916}
+        - {x: -0.40911865, y: -96.09999}
+        - {x: 92.59088, y: -96.09999}
+        - {x: 92.59088, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_32
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 193.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.90000916}
+        - {x: -0.40911865, y: -96.09999}
+        - {x: 92.59088, y: -96.09999}
+        - {x: 92.59088, y: 0.90000916}
+    - name: Snowflakes-vector-free-download-1024x482_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40909195, y: 0.9000015}
+        - {x: -0.40909195, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_34
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000015}
+        - {x: -0.40908813, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_35
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000015}
+        - {x: -0.40908813, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_36
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000015}
+        - {x: -0.40908813, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_37
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000015}
+        - {x: -0.40908813, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_38
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_39
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_40
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_41
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_42
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_43
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 97.6
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40909195, y: 0.9000015}
+        - {x: -0.40909195, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_45
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000015}
+        - {x: -0.40908813, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_46
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000015}
+        - {x: -0.40908813, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_47
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000015}
+        - {x: -0.40908813, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_48
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40908813, y: 0.9000015}
+        - {x: -0.40908813, y: -96.1}
+        - {x: 92.59091, y: -96.1}
+        - {x: 92.59091, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_49
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_50
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_51
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_52
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_53
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    - name: Snowflakes-vector-free-download-1024x482_54
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1.5999985
+        width: 92.181816
+        height: 96.4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.40911865, y: 0.9000015}
+        - {x: -0.40911865, y: -96.1}
+        - {x: 92.59088, y: -96.1}
+        - {x: 92.59088, y: 0.9000015}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
