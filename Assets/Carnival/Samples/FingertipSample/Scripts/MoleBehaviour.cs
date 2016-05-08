@@ -36,6 +36,7 @@ public class MoleBehaviour : MonoBehaviour
         {
             // Mole falls down when it is hit by collider
             GetComponent<Rigidbody>().useGravity = true;
+            GameObject.Find("snowball").GetComponent<Rigidbody>().useGravity = true;
             gameObject.tag = "movingDown";
         }
     }
