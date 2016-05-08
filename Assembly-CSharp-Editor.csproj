@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{608AC867-70ED-74CB-E54E-C5A1D3FCA285}</ProjectGuid>
+    <ProjectGuid>{A6DCE101-F7FA-6981-3F52-9D973D4E0F6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -53,12 +53,27 @@
      <Compile Include="Assets\Cardboard\Editor\CardboardMenu.cs" />
      <Compile Include="Assets\Cardboard\Editor\CardboardSetup.cs" />
      <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
+     <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
+     <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
+     <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
+     <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
+     <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_BlitFlip.shader" />
      <None Include="Assets\Carnival\Samples\PointCloudSample\Materials\VertexColorMap.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_HiddenArea.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_Overlay.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_Blit.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -85,7 +100,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="CarnivalCSharp">
- <HintPath>/Users/timothy/TechCrunch2016/Carnival/Carnival Samples/Assets/Carnival/Plugins/CarnivalCSharp.dll</HintPath>
+ <HintPath>/Users/d/tcd2016/Assets/Carnival/Plugins/CarnivalCSharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -93,15 +108,18 @@
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{674DD199-FC38-1057-8C1C-0CC3D0098850}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{70AF36CC-CA4C-9706-81A0-8A336D30DE89}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{ED637832-2C35-5BBF-5155-1CB976B9E928}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{CB08A7E0-4ADE-0D11-FA1E-9478989463B7}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
