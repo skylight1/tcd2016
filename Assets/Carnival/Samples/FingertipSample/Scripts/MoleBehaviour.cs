@@ -44,10 +44,11 @@ public class MoleBehaviour : MonoBehaviour
             GameObject.Find("snowball").GetComponent<Rigidbody>().useGravity = true;
             gameObject.tag = "movingDown";
         } 
-        if(col.gameObject.name == "snowglobe") {        
+        if(col.gameObject.name == "snowglobe") {   
+        Debug.Log("snowglobe triggered mole!!!!!!");     
             GameObject.Find("snowglobe").GetComponent<Rigidbody>().useGravity = true;
             GameObject.Find("snowglobe").GetComponent<Rigidbody>().transform.position = new Vector3(0,-1,0);
-//            GameObject.Find("Cylinder2").GetComponent<Rigidbody>().isKinematic = false;
+            GameObject.Find("Cylinder2").GetComponent<Rigidbody>().isKinematic = false;
             GameObject.Find("Cylinder2").GetComponent<Rigidbody>().useGravity = true;
         }
     }
